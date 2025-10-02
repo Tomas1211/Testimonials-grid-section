@@ -16,6 +16,23 @@ $grey500: hsl(217, 19%, 35%);
 $darkblue: hsl(219, 29%, 14%);
 $black: hsl(0, 0%, 7%);
 
+
+/* ## Fonts */
+$main-font: "Barlow Semi Condensed", sans-serif;
+
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: $main-font;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  display: grid;
 }
