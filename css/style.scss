@@ -42,17 +42,40 @@ body {
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 1rem 1rem 2rem $grey200, 1rem -1rem 2rem $grey200;
+
+
+    img {
+      border-radius: 50%;
+    }
+
 }
 
 .testimonial:nth-child(1) {
   background-color: $purple500;
   color: $white;
+
+  img {
+    border: 2px solid;
+    border-color: $purple300;
+  }
 }
+
 .testimonial:nth-child(2) {
   background-color: $grey500;
   color: $white;
+
+  img {
+    border: 2px solid;
+    border-color: $grey400;
+  }
 }
+
 .testimonial:nth-child(4) {
   background-color: $darkblue;
   color: $white;
+
+  img {
+    border: 2px solid;
+    border-color: $purple500;
+  }
 }
